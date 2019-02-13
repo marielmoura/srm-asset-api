@@ -1,4 +1,4 @@
-package com.srmasset.customercrud.model;
+package com.srmasset.api.model;
 
 public enum Risk {
     A{

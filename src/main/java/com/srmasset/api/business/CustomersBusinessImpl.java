@@ -1,6 +1,6 @@
-package com.srmasset.customercrud.business;
-import com.srmasset.customercrud.model.Customer;
-import com.srmasset.customercrud.repository.CustomersRepository;
+package com.srmasset.api.business;
+import com.srmasset.api.model.Customer;
+import com.srmasset.api.repository.CustomersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,18 +1,16 @@
-package com.srmasset.customercrud.controller;
+package com.srmasset.api.controller;
 
-import com.srmasset.customercrud.business.CustomersBusiness;
-import com.srmasset.customercrud.model.Customer;
-import com.srmasset.customercrud.model.Risk;
+import com.srmasset.api.business.CustomersBusiness;
+import com.srmasset.api.model.Customer;
+import com.srmasset.api.model.Risk;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.annotation.Id;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("api/srmasset/customers")
+@RequestMapping("customers")
 public class CustomersController {
 
     private final CustomersBusiness customersBusiness;

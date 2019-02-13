@@ -1,9 +1,8 @@
-package com.srmasset.customercrud.business;
+package com.srmasset.api.business;
 
-import com.srmasset.customercrud.model.Customer;
+import com.srmasset.api.model.Customer;
 
 import java.util.List;
-import java.util.Optional;
 
 
 public interface CustomersBusiness {
